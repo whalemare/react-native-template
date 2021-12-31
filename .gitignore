@@ -58,3 +58,10 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# build files
+*.jsbundle
+*.apk
+*.aab
+*.dSYM.*
+*.ipa
