@@ -1,14 +1,18 @@
 import React from 'react'
 import { StyleProp, ViewStyle, View, Text } from 'react-native'
 
-import pkg from './package.json'
-import { getKeys } from './src/lib/typescript/getKeys'
+import { getKeys } from '~/lib/typescript/getKeys'
 
-interface VersionsViewProps {
+import pkg from '../../../package.json'
+
+interface HelloScreenProps {
   style?: StyleProp<ViewStyle>
 }
 
-export const VersionsView: React.FC<VersionsViewProps> = props => {
+/**
+ * @deprecated remove me
+ */
+export const HelloScreen: React.FC<HelloScreenProps> = props => {
   const { style } = props
 
   const deps = getKeys(pkg.dependencies)

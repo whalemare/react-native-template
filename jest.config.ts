@@ -11,6 +11,6 @@ const config: Config.InitialOptions = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   notify: true,
   notifyMode: "always",
-  setupFiles: ['./tests/setup.ts'],
+  setupFiles: ['./tests/setup.ts', './node_modules/react-native-gesture-handler/jestSetup.js'],
 };
 export default config;

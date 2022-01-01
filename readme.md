@@ -1,5 +1,11 @@
 # react-native-template
 
+### Features
+
+- Predefined ESLint rules
+- Sorting imports and props
+- `~` alias to `src` directory
+
 ### Installed
 - TypeScript 4.5.4
 - React 17.0.2

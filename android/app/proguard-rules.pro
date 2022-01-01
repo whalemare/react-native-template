@@ -11,3 +11,6 @@
 
 # https://github.com/react-native-svg/react-native-svg#problems-with-proguard
 -keep public class com.horcrux.svg.** {*;}
+
+# https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/#proguard
+-keep class com.facebook.react.turbomodule.** { *; }
