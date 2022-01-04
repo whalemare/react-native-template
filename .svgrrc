@@ -1,0 +1,7 @@
+{
+  "native": true,
+  "replaceAttrValues": {
+    "#000": "{props.fill}",
+    "#fff": "{props.fillInverted}"
+  }
+}
