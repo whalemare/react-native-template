@@ -5893,6 +5893,13 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mobx-request@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/mobx-request/-/mobx-request-0.1.2.tgz#f33d578d5491eed4d31ed1621b53426290e4f960"
+  integrity sha512-JTTQ9Rg3BekIPmyaRfkkpN6ew+36AnbHmTmJEgrxIyu/vrW15hIkGM0ogftzVcsA5S4tjNu4LeiOaPm3LlADJA==
+  dependencies:
+    real-cancellable-promise "1.1.1"
+
 mockdate@^3.0.2:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/mockdate/-/mockdate-3.0.5.tgz#789be686deb3149e7df2b663d2bc4392bc3284fb"
@@ -6707,6 +6714,11 @@ readline@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/readline/-/readline-1.3.0.tgz#c580d77ef2cfc8752b132498060dc9793a7ac01c"
   integrity sha1-xYDXfvLPyHUrEySYBg3JeTp6wBw=
+
+real-cancellable-promise@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/real-cancellable-promise/-/real-cancellable-promise-1.1.1.tgz#be793502f7ed8067936d95dc040a2d2a2a1944a7"
+  integrity sha512-vxanUX4Aff5sRX6Rb1CSeCDWhO20L0hKQXWTLOYbtRo9WYFMjlhEBX0E75iz3+7ucrmFdPpDolwLC7L65P7hag==
 
 recast@^0.20.3:
   version "0.20.5"
