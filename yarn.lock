@@ -5893,6 +5893,11 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mobx-react-lite@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-3.2.3.tgz#83d2b32ebf4383cd0dc0d397acbf53a8e9c66765"
+  integrity sha512-7exWp1FV0M9dP08H9PIeHlJqDw4IdkQVRMfLYaZFMmlbzSS6ZU6p/kx392KN+rVf81hH3IQYewvRGQ70oiwmbw==
+
 mobx-request@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/mobx-request/-/mobx-request-0.1.2.tgz#f33d578d5491eed4d31ed1621b53426290e4f960"
